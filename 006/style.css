@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans MT';
+}
+
+body {
+    background-color: white;
+    overflow: hidden;
+}
+
+main {
+    width: 70%;
+    height: 100vh;
+    background-color: darkslategray;
+    margin: 0 auto;
+}
+
+hr {
+    border: 1.5px solid darkslategray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.d1 {
+    width: 80%;
+    height: 100px;
+    background-color: #0000003c;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: larger;
+}
+
+.tema {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tamanho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d2 {
+    width: 80%;
+    height: 150px;
+    background-color: #0000003c;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.tarefas {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tarefas,
+#resumo,
+#backup {
+    width: 50px;
+}
+
+.not {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d3 {
+    width: 80%;
+    height: 150px;
+    background-color: #0000003c;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.perfil,
+.dois,
+.dados {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d4 {
+    width: 80%;
+    height: 120px;
+    background-color: #0000003c;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.backup,
+.conta {
+    display: flex;
+    justify-content: space-between;
+}
